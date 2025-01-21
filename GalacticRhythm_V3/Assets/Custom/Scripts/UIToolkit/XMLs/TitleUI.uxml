@@ -1,0 +1,9 @@
+<ui:UXML xmlns:ui="UnityEngine.UIElements" xmlns:uie="UnityEditor.UIElements" xsi="http://www.w3.org/2001/XMLSchema-instance" engine="UnityEngine.UIElements" editor="UnityEditor.UIElements" noNamespaceSchemaLocation="../UIElementsSchema/UIElements.xsd" editor-extension-mode="False">
+    <Style src="project://database/Assets/Custom/Scripts/UIToolkit/Style%20Sheets/TitleUI.uss?fileID=7433441132597879392&amp;guid=01a8cfb1f5fdbbc4d8b164d1f8a45c0a&amp;type=3#TitleUI" />
+    <ui:VisualElement name="Background" class="background" style="flex-grow: 1;" />
+    <ui:VisualElement name="Container" class="container" style="flex-grow: 1;">
+        <ui:Label tabindex="-1" text="Galactic&#10;Rhythm" parse-escape-sequences="true" display-tooltip-when-elided="true" name="txtTitle" class="txtTitle" />
+        <ui:Button text="Tap To Start" parse-escape-sequences="true" display-tooltip-when-elided="true" name="btnStart" class="btnStart" />
+        <ui:Label tabindex="-1" text="Galactic Rhythm | Blue Haze" parse-escape-sequences="true" display-tooltip-when-elided="true" name="txtStudioName" class="txtStudioName" />
+    </ui:VisualElement>
+</ui:UXML>

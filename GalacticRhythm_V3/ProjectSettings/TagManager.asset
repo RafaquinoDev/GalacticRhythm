@@ -1,0 +1,61 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!78 &1
+TagManager:
+  serializedVersion: 2
+  tags:
+  - Projectile/Player
+  - Projectile/Enemy
+  - Spawn/NotCollectible
+  - Spawn/Collectible
+  - Enemy/Minion
+  - Enemy/Boss
+  layers:
+  - Default
+  - TransparentFX
+  - Ignore Raycast
+  - MenuArea
+  - Water
+  - UI
+  - 
+  - 
+  - 
+  - 
+  - 
+  - 
+  - 
+  - 
+  - 
+  - 
+  - 
+  - 
+  - 
+  - 
+  - 
+  - 
+  - 
+  - 
+  - 
+  - 
+  - 
+  - 
+  - 
+  - 
+  - 
+  - 
+  m_SortingLayers:
+  - name: Default
+    uniqueID: 0
+    locked: 0
+  - name: Background
+    uniqueID: 2517360879
+    locked: 0
+  - name: Back
+    uniqueID: 792282675
+    locked: 0
+  - name: Middle
+    uniqueID: 285672877
+    locked: 0
+  - name: Front
+    uniqueID: 1395586671
+    locked: 0

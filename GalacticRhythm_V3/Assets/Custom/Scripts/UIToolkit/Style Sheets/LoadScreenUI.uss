@@ -1,0 +1,75 @@
+.load_container {
+    position: absolute;
+    justify-content: center;
+    align-items: center;
+    width: 100%;
+    height: 100%;
+    align-self: stretch;
+}
+
+.load_txtLevelName {
+    background-color: rgba(255, 0, 0, 0);
+    -unity-font: url("project://database/Assets/Custom/UI/Fonts/UpheavalPro.ttf?fileID=12800000&guid=c85fe93e6fb0ecd499db97aa4809d1bf&type=3#UpheavalPro");
+    font-size: 175px;
+    -unity-font-definition: initial;
+    -unity-font-style: normal;
+    color: rgb(255, 255, 255);
+    -unity-text-align: middle-center;
+    -unity-text-outline-width: 0.1px;
+    letter-spacing: 10px;
+    -unity-paragraph-spacing: 5px;
+    top: 0;
+    width: 100%;
+    flex-shrink: 0;
+    align-items: stretch;
+    align-self: center;
+    min-height: 192px;
+    position: relative;
+    margin-bottom: 255px;
+}
+
+.load_loadingBar {
+    align-self: center;
+    justify-content: center;
+    width: 80%;
+    -unity-font-definition: initial;
+    -unity-font: url("project://database/Assets/Custom/UI/Fonts/Agdasima-Regular.ttf?fileID=12800000&guid=840b2655d67d9c449bf28a480a2c00af&type=3#Agdasima-Regular");
+    font-size: 60px;
+    color: rgb(195, 255, 255);
+    -unity-text-align: middle-center;
+}
+
+#loadingBar .unity-progress-bar__container {
+    min-height: 100px;
+    width: 100%;
+    align-self: stretch;
+    overflow: hidden;
+}
+
+#loadingBar .unity-progress-bar__background {
+    min-height: 75px;
+    background-color: rgb(0, 45, 55);
+    border-top-left-radius: 50px;
+    border-top-right-radius: 50px;
+    border-bottom-right-radius: 50px;
+    border-bottom-left-radius: 50px;
+}
+
+#loadingBar .unity-progress-bar__progress {
+    min-height: 75px;
+    background-color: rgb(0, 115, 155);
+    border-top-left-radius: 50px;
+    border-top-right-radius: 50px;
+    border-bottom-right-radius: 50px;
+    border-bottom-left-radius: 50px;
+}
+
+.load_container--deactivate {
+    position: absolute;
+    justify-content: center;
+    align-items: center;
+    width: 100%;
+    height: 100%;
+    align-self: stretch;
+    display: none;
+}

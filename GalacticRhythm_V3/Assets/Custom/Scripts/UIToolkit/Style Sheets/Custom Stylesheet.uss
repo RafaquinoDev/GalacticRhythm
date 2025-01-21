@@ -1,0 +1,41 @@
+.button {
+    height: 200px;
+    background-image: url("project://database/Assets/Custom/UI/Button1%20Play.png?fileID=2800000&guid=afb82c955bd53ff458fdbee61afd859d&type=3#Button1 Play");
+    background-color: rgba(188, 188, 188, 0);
+    border-left-color: rgba(149, 149, 149, 0);
+    border-right-color: rgba(149, 149, 149, 0);
+    border-top-color: rgba(149, 149, 149, 0);
+    border-bottom-color: rgba(149, 149, 149, 0);
+    width: 500px;
+    justify-content: center;
+}
+
+.background {
+    flex-grow: 1;
+    background-image: url("project://database/Assets/Custom/UI/Background.png?fileID=2800000&guid=3d8914830c62c014b9ab33e5ec720b63&type=3#Background");
+    -unity-background-scale-mode: scale-and-crop;
+    justify-content: flex-start;
+}
+
+.heading {
+    width: 100%;
+    height: 30%;
+    -unity-text-align: middle-center;
+    color: rgb(255, 255, 255);
+    position: absolute;
+    font-size: 175px;
+    top: 205px;
+    -unity-font: url("project://database/Assets/Custom/UI/Fonts/UpheavalPro.ttf?fileID=12800000&guid=c85fe93e6fb0ecd499db97aa4809d1bf&type=3#UpheavalPro");
+    -unity-font-definition: initial;
+    -unity-font-style: normal;
+    letter-spacing: 10px;
+    -unity-paragraph-spacing: 5px;
+}
+
+.button-music {
+    background-image: url("project://database/Assets/Custom/UI/Button1%20B.png?fileID=2800000&guid=379f0505c21cded4e9d6d17e56924329&type=3#Button1 B");
+    -unity-font: url("project://database/Assets/Custom/UI/Fonts/UpheavalPro.ttf?fileID=12800000&guid=c85fe93e6fb0ecd499db97aa4809d1bf&type=3#UpheavalPro");
+    -unity-font-definition: initial;
+    font-size: 65px;
+    color: rgb(255, 255, 255);
+}

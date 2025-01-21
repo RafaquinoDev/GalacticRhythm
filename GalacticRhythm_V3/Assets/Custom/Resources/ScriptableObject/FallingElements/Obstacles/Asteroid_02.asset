@@ -1,0 +1,23 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!114 &11400000
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 088b42f77f753a04aa1b02ad5a0140ef, type: 3}
+  m_Name: Asteroid_02
+  m_EditorClassIdentifier: 
+  elementName: Asteroid_02
+  lifetime: 20
+  elementSprite: {fileID: 0}
+  elementAudio: {fileID: 0}
+  elementAnimator: {fileID: 0}
+  elementVisualEffect: {fileID: 0}
+  spawnProbability: 0.5
+  fallSpeed: 2
+  contactDamage: 0

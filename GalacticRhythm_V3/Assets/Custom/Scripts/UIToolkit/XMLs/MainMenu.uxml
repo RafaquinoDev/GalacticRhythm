@@ -1,0 +1,19 @@
+<ui:UXML xmlns:ui="UnityEngine.UIElements" xmlns:uie="UnityEditor.UIElements" xsi="http://www.w3.org/2001/XMLSchema-instance" engine="UnityEngine.UIElements" editor="UnityEditor.UIElements" noNamespaceSchemaLocation="../../../UIElementsSchema/UIElements.xsd" editor-extension-mode="False">
+    <ui:Template name="OptionsPanel" src="project://database/Assets/Custom/Scripts/UIToolkit/XMLs/OptionsPanel.uxml?fileID=9197481963319205126&amp;guid=45387839511016e4a8d51aced850f49e&amp;type=3#OptionsPanel" />
+    <Style src="project://database/Assets/Custom/Scripts/UIToolkit/Style%20Sheets/MainMenuUI.uss?fileID=7433441132597879392&amp;guid=e9044b873749a4f40844658ca0033eb3&amp;type=3#MainMenuUI" />
+    <Style src="project://database/Assets/Custom/Scripts/UIToolkit/Style%20Sheets/OptionsPanelUI.uss?fileID=7433441132597879392&amp;guid=a166b14f0eadc6748b013e81d1c05fdb&amp;type=3#OptionsPanelUI" />
+    <ui:VisualElement name="Background" class="background" style="flex-grow: 1;" />
+    <ui:VisualElement name="ParentContainer" class="parent-container" style="flex-grow: 1;">
+        <ui:VisualElement name="ChildContainerUp" class="child-containerUp" style="flex-grow: 1;">
+            <ui:VisualElement name="imgSpaceship" class="img-spaceship" style="flex-grow: 1;" />
+        </ui:VisualElement>
+        <ui:VisualElement name="ChildContainerDown" class="child-containerDown" style="flex-grow: 1;">
+            <ui:VisualElement name="containerButtons" class="container-buttons" style="flex-grow: 1;">
+                <ui:Button parse-escape-sequences="true" display-tooltip-when-elided="true" name="btnPlay" class="btn-menu-common btn-play" />
+                <ui:Button parse-escape-sequences="true" display-tooltip-when-elided="true" name="btnOptions" class="btn-menu-common btn-options" />
+                <ui:Button parse-escape-sequences="true" display-tooltip-when-elided="true" name="btnExit" class="btn-menu-common btn-exit" />
+            </ui:VisualElement>
+        </ui:VisualElement>
+    </ui:VisualElement>
+    <ui:Instance template="OptionsPanel" name="OptionsPanel" class="options_instance options_instance--deactivate" />
+</ui:UXML>

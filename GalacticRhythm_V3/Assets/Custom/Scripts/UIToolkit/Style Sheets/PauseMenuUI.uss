@@ -1,0 +1,74 @@
+.pause_container {
+    position: absolute;
+    flex-grow: 1;
+    align-self: center;
+    width: 100%;
+    height: 100%;
+    background-color: rgba(255, 0, 0, 0);
+    opacity: 1;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.pause_container-buttons {
+    background-image: url("project://database/Assets/Custom/Art/Sprites/UI/Panel1.png?fileID=21300000&guid=1903cbfc6a84e9e47870e3cc53b4b3f5&type=3#Panel1");
+    -unity-background-scale-mode: scale-to-fit;
+    width: 85%;
+    max-height: 80%;
+    -unity-background-image-tint-color: rgb(205, 255, 245);
+    padding-top: 30%;
+    padding-right: 10%;
+    padding-left: 10%;
+    justify-content: space-around;
+    padding-bottom: 25%;
+    align-items: center;
+}
+
+.pause_btn-menu-common {
+    width: 85%;
+    min-height: 25%;
+    background-color: rgba(0, 0, 0, 0);
+    -unity-font-definition: initial;
+    -unity-font: url("project://database/Assets/Custom/Art/Sprites/UI/Fonts/Agdasima-Regular.ttf?fileID=12800000&guid=840b2655d67d9c449bf28a480a2c00af&type=3#Agdasima-Regular");
+    font-size: 72px;
+    -unity-text-align: middle-center;
+    -unity-font-style: bold;
+    color: rgb(255, 255, 255);
+    border-top-width: -1px;
+    border-right-width: -1px;
+    border-bottom-width: -1px;
+    border-left-width: -1px;
+}
+
+.pause_btn-resume {
+    background-image: url("project://database/Assets/Custom/Art/Sprites/UI/Button1%20G.png?fileID=21300000&guid=c583c7f8785a6214e8d2c1215688684d&type=3#Button1 G");
+    -unity-background-scale-mode: scale-to-fit;
+}
+
+.pause_btn-restart-settings {
+    background-image: url("project://database/Assets/Custom/Art/Sprites/UI/Button1%20B.png?fileID=21300000&guid=379f0505c21cded4e9d6d17e56924329&type=3#Button1 B");
+    -unity-background-scale-mode: scale-to-fit;
+}
+
+.pause_btn-return {
+    background-image: url("project://database/Assets/Custom/Art/Sprites/UI/Button1%20R.png?fileID=21300000&guid=59e50cef0bc5fc8479d59c000503eb8a&type=3#Button1 R");
+    -unity-background-scale-mode: scale-to-fit;
+}
+
+.pause_container--down-deactivate {
+    position: absolute;
+    flex-grow: 1;
+    align-self: center;
+    width: 100%;
+    height: 100%;
+    background-color: rgba(255, 0, 0, 0);
+    opacity: 1;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    translate: 0 101%;
+    transition-property: translate;
+    transition-duration: 2s;
+    transition-timing-function: ease-out;
+}

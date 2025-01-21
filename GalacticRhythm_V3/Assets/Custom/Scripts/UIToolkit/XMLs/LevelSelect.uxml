@@ -1,0 +1,23 @@
+<ui:UXML xmlns:ui="UnityEngine.UIElements" xmlns:uie="UnityEditor.UIElements" xsi="http://www.w3.org/2001/XMLSchema-instance" engine="UnityEngine.UIElements" editor="UnityEditor.UIElements" noNamespaceSchemaLocation="../../../UIElementsSchema/UIElements.xsd" editor-extension-mode="False">
+    <Style src="project://database/Assets/Custom/Scripts/UIToolkit/Style%20Sheets/LevelSelectorUI.uss?fileID=7433441132597879392&amp;guid=771ee7a4687f88b4092bbe90b1cdcaa7&amp;type=3#LevelSelectorUI" />
+    <Style src="project://database/Assets/Custom/Scripts/UIToolkit/Style%20Sheets/LoadScreenUI.uss?fileID=7433441132597879392&amp;guid=0bde56f75ee1f9c4f993037ae9ec405c&amp;type=3#LoadScreenUI" />
+    <ui:VisualElement name="Background" class="background" style="flex-grow: 1;" />
+    <ui:VisualElement name="ParentContainer" class="parent-container" style="flex-grow: 1;">
+        <ui:VisualElement name="ChildContainerUp" class="child-container-up" style="flex-grow: 1;">
+            <ui:Label tabindex="-1" text="SELECT&#10;LEVEL" parse-escape-sequences="true" display-tooltip-when-elided="true" name="txtSelectLevel" class="txtSelectLevel" />
+        </ui:VisualElement>
+        <ui:VisualElement name="ChildContainerMiddle" class="child-container-middle" style="flex-grow: 1;">
+            <ui:VisualElement name="imgLevelOne" class="imgLevelOne" style="flex-grow: 1;" />
+        </ui:VisualElement>
+        <ui:VisualElement name="ChildContainerDown" class="child-container-down" style="flex-grow: 1;">
+            <ui:VisualElement name="ButtonsContainer" class="buttons-container" style="flex-grow: 1;">
+                <ui:Button text="Back" parse-escape-sequences="true" display-tooltip-when-elided="true" name="btnBack" class="btnBack btn-common" />
+                <ui:Button text="Start" parse-escape-sequences="true" display-tooltip-when-elided="true" name="btnStart" class="btnStart btn-common" />
+            </ui:VisualElement>
+        </ui:VisualElement>
+    </ui:VisualElement>
+    <ui:VisualElement name="LoadScreenContainer" class="load_container load_container--deactivate" style="flex-grow: 1;">
+        <ui:Label tabindex="-1" text="Level&#10;01-01" parse-escape-sequences="true" display-tooltip-when-elided="true" name="txtLevelName" class="load_txtLevelName" />
+        <ui:ProgressBar value="0" title="loading..." name="loadingBar" low-value="0" class="load_loadingBar" />
+    </ui:VisualElement>
+</ui:UXML>

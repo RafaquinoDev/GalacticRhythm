@@ -1,0 +1,93 @@
+.background {
+    position: absolute;
+    flex-grow: 1;
+    align-self: center;
+    width: 1920px;
+    height: 100%;
+    background-image: url("project://database/Assets/Custom/Art/Sprites/UI/Background%20-%20Copy.png?fileID=21300000&guid=ec44452f9c99b3c4ebab2c13b863b8d8&type=3#Background - Copy");
+    -unity-slice-left: 0;
+    -unity-background-scale-mode: scale-and-crop;
+    justify-content: flex-start;
+    align-items: stretch;
+}
+
+.parent-container {
+    position: absolute;
+    flex-grow: 0;
+    flex-wrap: wrap;
+    justify-content: flex-start;
+    align-self: center;
+    width: 100%;
+    height: 100%;
+    background-color: rgba(0, 0, 0, 0);
+    align-items: center;
+    flex-direction: column;
+    flex-shrink: 0;
+}
+
+.child-containerUp {
+    background-color: rgba(149, 149, 149, 0);
+    width: 100%;
+    height: auto;
+    max-height: 35%;
+    min-height: 30%;
+    align-items: center;
+    justify-content: center;
+}
+
+.child-containerDown {
+    background-color: rgba(65, 65, 65, 0);
+    width: 100%;
+    max-height: none;
+    flex-grow: 1;
+    flex-shrink: 0;
+}
+
+.img-spaceship {
+    background-image: url("project://database/Assets/Sprites/Player/Spaceship%201%201.png?fileID=21300000&guid=c168f565b4b10914d92dd834df006b50&type=3#Spaceship 1 1");
+    -unity-background-scale-mode: scale-to-fit;
+    align-items: center;
+    justify-content: center;
+    align-self: center;
+    width: 40%;
+    height: auto;
+    max-height: 50%;
+}
+
+.container-buttons {
+    background-color: rgba(0, 255, 175, 0);
+    align-self: center;
+    width: 55%;
+    max-height: 70%;
+    align-items: center;
+    justify-content: space-around;
+}
+
+.btn-menu-common {
+    width: 100%;
+    min-height: 200px;
+    flex-wrap: nowrap;
+    align-self: center;
+    align-items: center;
+    height: 25%;
+    background-color: rgba(0, 0, 0, 0);
+    border-top-width: -1px;
+    border-right-width: -1px;
+    border-bottom-width: -1px;
+    border-left-width: -1px;
+}
+
+.btn-play {
+    background-image: url("project://database/Assets/Custom/Art/Sprites/UI/Button1%20Play.png?fileID=21300000&guid=afb82c955bd53ff458fdbee61afd859d&type=3#Button1 Play");
+    -unity-background-scale-mode: scale-to-fit;
+}
+
+.btn-options {
+    background-image: url("project://database/Assets/Custom/Art/Sprites/UI/Button1%20Options.png?fileID=21300000&guid=28b8c806d618a3a4281637535066de82&type=3#Button1 Options");
+    -unity-background-scale-mode: scale-to-fit;
+}
+
+.btn-exit {
+    background-image: url("project://database/Assets/Custom/Art/Sprites/UI/Button1%20Exit.png?fileID=21300000&guid=4895bb62c5e9fea44af62d5c24b9c11d&type=3#Button1 Exit");
+    -unity-background-scale-mode: scale-to-fit;
+}

@@ -1,0 +1,9 @@
+<ui:UXML xmlns:ui="UnityEngine.UIElements" xmlns:uie="UnityEditor.UIElements" xsi="http://www.w3.org/2001/XMLSchema-instance" engine="UnityEngine.UIElements" editor="UnityEditor.UIElements" noNamespaceSchemaLocation="../../../UIElementsSchema/UIElements.xsd" editor-extension-mode="False">
+    <Style src="project://database/Assets/Custom/UIToolkit/Stylesheet/Custom%20Stylesheet.uss?fileID=7433441132597879392&amp;guid=d58b73eb6b4505f4da59cf3e7803fa19&amp;type=3#Custom Stylesheet" />
+    <ui:VisualElement name="Background" class="background" style="flex-grow: 1;">
+        <ui:VisualElement name="Container" style="flex-grow: 1; position: absolute; width: 1000px; height: 1700px; justify-content: space-around; align-items: stretch; align-self: center; margin-top: 470px; margin-right: 100px; margin-bottom: 470px; margin-left: 100px;">
+            <ui:Label tabindex="-1" text="Level 1 - 1" parse-escape-sequences="true" display-tooltip-when-elided="true" class="heading" style="color: rgb(255, 255, 255); -unity-font: url(&quot;project://database/Assets/Custom/UI/Fonts/UpheavalPro.ttf?fileID=12800000&amp;guid=c85fe93e6fb0ecd499db97aa4809d1bf&amp;type=3#UpheavalPro&quot;); -unity-font-definition: initial; position: relative; top: 0;" />
+            <ui:Button parse-escape-sequences="true" display-tooltip-when-elided="true" name="btnPlay" class="button" style="align-self: center;" />
+        </ui:VisualElement>
+    </ui:VisualElement>
+</ui:UXML>

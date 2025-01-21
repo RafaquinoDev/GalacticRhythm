@@ -1,0 +1,10 @@
+<ui:UXML xmlns:ui="UnityEngine.UIElements" xmlns:uie="UnityEditor.UIElements" xsi="http://www.w3.org/2001/XMLSchema-instance" engine="UnityEngine.UIElements" editor="UnityEditor.UIElements" noNamespaceSchemaLocation="../../../UIElementsSchema/UIElements.xsd" editor-extension-mode="False">
+    <Style src="project://database/Assets/Custom/Scripts/UIToolkit/Style%20Sheets/HUD.uss?fileID=7433441132597879392&amp;guid=cbcce708870c0bd46aeeec54307784eb&amp;type=3#HUD" />
+    <ui:VisualElement name="ParentContainer" class="parent-container" style="flex-grow: 1;">
+        <ui:VisualElement name="HUDContainer" class="hud-container" style="flex-grow: 1;">
+            <ui:VisualElement name="imgPowerUp" class="img-PowerUp" style="flex-grow: 1;" />
+            <ui:ProgressBar value="22" name="lifeBar" class="hud_lifeBar" />
+            <ui:Button parse-escape-sequences="true" display-tooltip-when-elided="true" name="btnPause" class="btn-pause" />
+        </ui:VisualElement>
+    </ui:VisualElement>
+</ui:UXML>

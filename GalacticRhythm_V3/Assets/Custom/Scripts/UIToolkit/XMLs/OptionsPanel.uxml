@@ -1,0 +1,11 @@
+<ui:UXML xmlns:ui="UnityEngine.UIElements" xmlns:uie="UnityEditor.UIElements" xsi="http://www.w3.org/2001/XMLSchema-instance" engine="UnityEngine.UIElements" editor="UnityEditor.UIElements" noNamespaceSchemaLocation="../../../UIElementsSchema/UIElements.xsd" editor-extension-mode="False">
+    <Style src="project://database/Assets/Custom/Scripts/UIToolkit/Style%20Sheets/OptionsPanelUI.uss?fileID=7433441132597879392&amp;guid=a166b14f0eadc6748b013e81d1c05fdb&amp;type=3#OptionsPanelUI" />
+    <ui:VisualElement name="Scrim" class="options_scrim options_scrim--deactivate" style="flex-grow: 1;" />
+    <ui:VisualElement name="Container" class="options_container options_container--down-deactivate" style="flex-grow: 1;">
+        <ui:VisualElement name="ContainerButtons" class="options_container-buttons" style="flex-grow: 1;">
+            <ui:Button text="Music: ON" parse-escape-sequences="true" display-tooltip-when-elided="true" name="btnMusic" class="options_btn-menu-common options_btn-music-sfx" />
+            <ui:Button text="Sound: ON" parse-escape-sequences="true" display-tooltip-when-elided="true" name="btnSound" class="options_btn-menu-common options_btn-music-sfx" />
+            <ui:Button text="Return" parse-escape-sequences="true" display-tooltip-when-elided="true" name="btnExit" class="options_btn-menu-common options_btn-exit" />
+        </ui:VisualElement>
+    </ui:VisualElement>
+</ui:UXML>
